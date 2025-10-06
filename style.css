@@ -1,0 +1,460 @@
+  * {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+html{
+  scroll-behavior: smooth;
+  font-size:13px;
+}
+.heading{
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2.5rem 5rem;
+}
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.mode{
+  width: 3rem;
+}
+.view-mode{
+  background-color: transparent;
+  border: none;
+}
+.GO-to-top{
+  position: fixed;
+  width: 7rem;
+  border-radius: 50%;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+}
+.arrow{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+/* Nevigation bar start here */
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 0rem 10rem 0rem;
+  padding: 1rem 0rem;
+  /* width: 100%; */
+}
+.header-title {
+  width: 20%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-content: center;
+}
+.headeri-name {
+  color: rgb(71, 173, 173);
+  font-weight: 600;
+}
+.Nevigation-panal {
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.hamburger{
+    display: none;
+    width: 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    background-color: transparent;
+    border: none;
+    padding: 0rem 0rem;
+}
+.Nevigation-action-title {
+  list-style: none;
+}
+.Nevigation-action {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+/* Nevigation bar  end here*/
+/* Hero section start here */
+.Hero-Section {
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5rem;
+  align-items: center;
+  width: fit-content;
+  /* height: fit-content; */
+  border-radius: 5rem;
+  padding: 2rem;
+}
+.Hero-section-details {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  /* height: fit-content; */
+}
+.HeroSectionTitle {
+  font-size: 2.5rem;
+}
+.Hero-section-detail-title {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.HeroSectionTitle,
+.Hero-section-detail-title {
+  margin: 2rem 0rem;
+}
+.call-to-action {
+  flex-direction: row;
+  justify-content: center;
+  gap:5rem;
+}
+.Hero-section-image {
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  width: 30rem;
+  height: 30rem;
+}
+.profile-photo {
+  width: 30rem;
+  border-radius: 50%;
+}
+.Hero-section-name {
+  font-size: 5rem;
+}
+.Hero-section-title {
+  font-size: 2rem;
+}
+.Project,
+.Contact,
+.Resume {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin:1rem;
+}
+.Project {
+  background-color: rgb(71, 173, 173);
+  color: white;
+}
+.Contact {
+  background-color: white;
+  color: black;
+  border: 0.25rem solid rgb(71, 173, 173);
+}
+.Resume {
+  background-color: rgba(196, 194, 252, 0.821);
+  color: black;
+  border: 0.25rem solid rgb(71, 173, 173);
+}
+/* Hero section start here */
+/* About section start here  */
+.about-section {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5rem;
+  padding: 2rem;
+  margin: 5rem;
+}
+.sud-information {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image {
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+}
+.About-image {
+  width: 20rem;
+}
+.informatio-about {
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  gap: 1rem;
+}
+.self-intro {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.name {
+  font-size: 3rem;
+}
+.degree {
+  font-size: 2rem;
+}
+.text-about{
+  border-radius: 4rem;
+  padding: 1.5rem;
+}
+.Job-for-skill {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 0.2rem solid blue;
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+.intro,
+.bio,
+.what-i-offer,
+li {
+  font-size: 1.5rem;
+}
+.what-i-offer {
+  flex-direction: column;
+  justify-content: space-between;
+}
+li {
+  margin: 0rem 1.5rem;
+}
+.About-action {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.git,
+.linkedin {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+/* About section end here  */
+/* Skill section start here */
+.skill {
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem;
+  /* height: 40rem; */
+  border-radius: 5rem;
+  padding: 2rem;
+}
+.skill-image {
+  flex-direction: row;
+  margin: 1.5rem 0rem;
+  justify-content: space-evenly;
+  margin: 0rem;
+}
+.Skill-language-image {
+  width: 8rem;
+  border-radius: 1rem ;
+}
+.Skill-language {
+  width: 8rem;
+  margin: 2rem 5rem;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.title {
+  font-size: 3.25rem;
+}
+/* Skill section end here */
+/* project section start here  */
+.project{
+  flex-direction: column; 
+  justify-content: center;
+  margin: 5rem;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+.project-box{
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: 2.5rem;
+  width: 40%;
+  padding: 1.5rem 0.5rem;
+  border-radius: 5rem;
+}
+.project-set{
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-image{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 2.5rem;
+}
+.info-project{
+  flex-direction: column;
+  /* height: fit-content; */
+}
+.project-detail{
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 15rem; */
+  padding: 1rem;
+}
+.project-name{
+  text-align: center ;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.project-tagline,.project-techstack,.decription{
+  font-size: 1.5rem;
+}
+.prject-interact{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Gitlink,.live-project{
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+/* project section end here  */
+/* Education sectio start here */
+.education{
+  flex-direction: column;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+.education-get{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+}
+.collage,.jrcollage,.highschool{
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 5rem;
+}
+p{
+  font-size: 1.5rem;
+}
+.achivement{
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+}
+.achiveement-gets{
+  width: fit-content;
+  border-radius: 1rem;
+  margin: auto;
+  font-size:1.7rem;
+}
+/* Education sectio end here */
+/* Experience section start here  */
+.experience{
+  flex-direction: column;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+.experince-have{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+}
+.collage-training,.online-training,.self-work{
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 5rem;
+}
+.certification{
+  text-align: center;
+  font-size: 2rem;
+}
+/* Experience section end here  */
+/* Contact sction start here  */
+footer{
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 2rem;
+  padding: 1rem 0rem;
+
+}
+.contact{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contact-img{
+  width: 2rem;
+}
+.phone-no,.email,.linkedIn,.Git,.insta{
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  align-content: center;
+  font-size: 1.5rem;
+}
+/* Contact sction end here  */
+/* Common css */
+button{
+  cursor: pointer;
+}
+@media(max-width:1100px){
+  .Hero-Section{
+    flex-direction: column;
+    /* padding: 0rem; */
+  }
+  .Hero-section-image{
+    order: 0;
+    padding: 0px;
+    margin: 0px;
+  }
+  .Hero-section-details{
+    padding: 0px;
+    order: 1;
+    margin: 0px;
+    width: 80%;
+  }
+  .call-to-action{
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  .education-get,.experince-have{
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr ;
+  }
+      .hamburger{
+        display: inline-block;
+        cursor: pointer;
+        top:2.5rem;
+        right:0rem;
+    }
+    .Nevigation-action-title{
+        display: none;
+    }
+    .Nevigation-panal{
+        width:5rem;
+        justify-content: center;
+    }
+    .Nevigation-action{
+        font-size: 2rem;
+    }
+}
+@media(max-width:1000px){
+  .sud-information{
+    flex-direction: column;
+  }
+  .image,.informatio-about,.project-box{
+    width: 100%;
+  }
+}
+@media(max-width:400px){
+  .container{
+    margin: 2.5rem 0rem;
+  }
+}

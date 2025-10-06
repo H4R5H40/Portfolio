@@ -1,0 +1,75 @@
+body{
+    background-color: #121212;
+}
+header,footer,.Hero-Section,.about-section,.skill,.project,.education,.experience{
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+header{
+    color: #FFFFFF;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+.Nevigation-action{
+    color: #1e90ff;
+}
+.Hero-Section{
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+.about-section,li{
+    color: #FFFFFF;
+}
+.heading,.title{
+    color: #FFFFFF;
+}
+p{
+    color: #FFFFFF;
+}
+.profile-photo{
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+.about-section{
+    color: #CCCCCC;
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.08);
+}
+.skill{
+    background-color: #181818;
+}
+.title{
+    color: #1e90ff;
+}
+.Skill-language{
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+.project-box{
+    background-color: #4e4e4e;
+    color: #DDDDDD;
+    box-shadow: 0 4px 12px rgba(254, 254, 254, 0.454);
+}
+.education{
+    background-color: #181818;
+}
+.collage,.jrcollage,.highschool,.collage-training,.online-training,.self-work{
+    background-color: #4e4e4e;
+    box-shadow: 0 4px 12px rgba(254, 254, 254, 0.454);
+}
+footer{
+    background-color: #0d0d0d;
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(254, 254, 254, 0.454);
+}
+.certification,a{
+    color: #FFFFFF;
+}
+.education{
+    color:#ffffff ;
+}
+@media(max-width:1100px){
+  .Nevigation-panal{
+    background-color: #1e1e1ebe;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  }
+  .hamburger{
+    color: #ffffff;
+  }
+}
