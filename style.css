@@ -1,4 +1,4 @@
-  * {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -458,25 +458,3 @@ button{
     margin: 2.5rem 0rem;
   }
 }
-/* Animation  */
-button,.profile-photo,.About-image{
-transition: transform 0.6s ease;
-}
-button:hover{
-  transform: scale(1.1);
-}
-.profile-photo:hover,.About-image:hover{
-  transform: rotateY(360deg);
-
-}
-/* .Hero-section-name{background:url(h.jpg) center;
-  background-size: cover;
-  background-clip: text;
-  color: transparent;
-  animation: animate 3s linear infinite;
-}
-@keyframes animate{
-  to{
-    background-position-x: -500px;
-  }
-} */

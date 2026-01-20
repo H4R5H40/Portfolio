@@ -9,7 +9,7 @@ const list_set1 = document.querySelector(".Nevigation-panal div");
 css="flex-direction:column;float:right;position:absolute;top:3rem;right:-1rem;width:25%;margine:5rem 0rem 0rem 0rem;text-align:center;padding:0rem 0rem;border-radius:1rem;";
 btn.addEventListener('click',()=>{
     if(css_mode.getAttribute("href")=="lightMode.css"){
-        css_mode.setAttribute("href","darkMode.css")
+        css_mode.setAttribute("href","darkMode.css");
         mode_icon.setAttribute('src','light-mode.png')
         return;
     }
