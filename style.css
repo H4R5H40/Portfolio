@@ -132,6 +132,8 @@ h3 {
 .profile-photo {
   width: 30rem;
   border-radius: 50%;
+  box-shadow: 0 0 14px 14px rgba(0, 0, 0, 0.4);
+  border: 1.5rem solid rgba(255, 250, 250, 0.702);
 }
 .Hero-section-name {
   font-size: 5rem;
